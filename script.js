@@ -37,7 +37,7 @@ function startGame() {
     if (isInputValid(userChoice)) {
         console.log(`User choose: ${userChoice}`); // userChoice = "paper" -> User choose: paper
     } else {
-        console.log('Invalid input, ("rock", "paper" or "scissors")'); // userChoice = "fish" -> blah blah blah .... error message
+        alert('Invalid input, ("rock", "paper" or "scissors")'); // userChoice = "fish" -> blah blah blah .... error message
         return false;
     }
 
